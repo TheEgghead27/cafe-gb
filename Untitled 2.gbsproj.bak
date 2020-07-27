@@ -2,9 +2,9 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1325,
-        "worldScrollY": 1486,
-        "zoom": 550,
+        "worldScrollX": 703,
+        "worldScrollY": 604,
+        "zoom": 300,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
@@ -90,7 +90,8 @@
                             "id": "840d0d6a-8233-4f64-9a7c-4e5bd725f892",
                             "command": "EVENT_END"
                         }
-                    ]
+                    ],
+                    "name": "Eminem"
                 },
                 {
                     "spriteSheetId": "7fff0634-3dc2-47aa-ba77-03b22852f2a7",
@@ -100,7 +101,19 @@
                     "animSpeed": "3",
                     "id": "6c80c5ce-5eda-479f-90b9-2d1f72bb4cc9",
                     "x": 12,
-                    "y": 3
+                    "y": 3,
+                    "name": "AWSM"
+                },
+                {
+                    "spriteSheetId": "cedd4bd9-2ac9-4f42-a98d-29ff0bc21323",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "ba807121-4f48-4a41-95b6-3792382edc3e",
+                    "x": 16,
+                    "y": 8,
+                    "name": "Pencil"
                 }
             ],
             "triggers": [
@@ -166,7 +179,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Yo curb your\nnegative energy"
+                                                "I'm sorry I fucked\nup again"
                                             ],
                                             "avatarId": ""
                                         }
@@ -199,16 +212,6 @@
     "variables": [],
     "backgrounds": [
         {
-            "id": "f3eaa86b-2721-4c2c-9c7c-bc0c4349bcdd",
-            "name": "cafe 2",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "cafe 2.png",
-            "_v": 1595880158136
-        },
-        {
             "id": "1b1c83d0-5b4e-40cc-ac39-959049311105",
             "name": "cafe",
             "width": 20,
@@ -216,7 +219,17 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cafe.png",
-            "_v": 1595880158136
+            "_v": 1595889393047
+        },
+        {
+            "id": "f3eaa86b-2721-4c2c-9c7c-bc0c4349bcdd",
+            "name": "cafe 2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "cafe 2.png",
+            "_v": 1595889393047
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -226,7 +239,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "_v": 1595880158136
+            "_v": 1595889393047
         }
     ],
     "spriteSheets": [
@@ -236,7 +249,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "_v": 1595880158136
+            "_v": 1595889393047
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -244,7 +257,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "_v": 1595880158136
+            "_v": 1595889393047
         },
         {
             "id": "7fff0634-3dc2-47aa-ba77-03b22852f2a7",
@@ -252,7 +265,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "awsm.png",
-            "_v": 1595881565834
+            "_v": 1595889393047
         },
         {
             "id": "735c513c-163d-4eca-bbc9-d3e35b1667a4",
@@ -260,7 +273,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "eminem-original.png",
-            "_v": 1595880158136
+            "_v": 1595889393047
         },
         {
             "id": "59125981-3f34-4cd6-a0fd-7946c13d895e",
@@ -268,7 +281,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "eminem.png",
-            "_v": 1595880158136
+            "_v": 1595889393047
+        },
+        {
+            "id": "cedd4bd9-2ac9-4f42-a98d-29ff0bc21323",
+            "name": "pencil",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "pencil.png",
+            "_v": 1595889480920
         },
         {
             "id": "a25da846-ae45-43e2-a8aa-f7e5c4f4fe49",
@@ -276,7 +297,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "pkm_red_animated-2.png",
-            "_v": 1595880282086
+            "_v": 1595889393047
         },
         {
             "id": "25b3a942-603e-4cf7-8a3f-524c852df80d",
@@ -284,7 +305,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "pkm_red_animated.png",
-            "_v": 1595880511945
+            "_v": 1595889393047
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -292,7 +313,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "_v": 1595880158136
+            "_v": 1595889393047
         }
     ],
     "music": [
@@ -300,7 +321,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1595880158136
+            "_v": 1595889393047
         }
     ],
     "customEvents": []
