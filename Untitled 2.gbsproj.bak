@@ -2,9 +2,9 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 914,
-        "worldScrollY": 1321,
-        "zoom": 500,
+        "worldScrollX": 1325,
+        "worldScrollY": 1486,
+        "zoom": 550,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
@@ -126,7 +126,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Welcome to\nMcDonalds, may I\ntake your order?"
+                                                "If you don't want\nto order anything,",
+                                                "then get the fuck\nout of my café."
                                             ],
                                             "avatarId": ""
                                         }
