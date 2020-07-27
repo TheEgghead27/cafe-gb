@@ -1,3 +1,5 @@
+the following is the default readme from GB Studio's webpage export
+
 # JavaScript GameBoy Color Emulator
 
 Fork of Grant Galitz's JavaScript GameBoy Color Emulator made for running a single ROM
