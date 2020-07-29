@@ -3,7 +3,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1191,
-        "worldScrollY": 1454,
+        "worldScrollY": 1554,
         "zoom": 500,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -35,7 +35,7 @@
                 0,
                 12,
                 12,
-                192,
+                0,
                 192,
                 60,
                 12,
@@ -213,74 +213,38 @@
                             "id": "eff27cd6-67d6-45a9-9383-4ded15fba650",
                             "command": "EVENT_END"
                         }
+                    ],
+                    "name": "Eminem"
+                },
+                {
+                    "spriteSheetId": "7c52c96b-d85a-4e4c-81a7-fa1c1b205c1e",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "6b7a4470-4979-4158-ab53-508f5aec0287",
+                    "x": 10,
+                    "y": 3,
+                    "name": "AWSM",
+                    "script": [
+                        {
+                            "id": "d330b52d-adcc-40d9-a010-ae5fa3cd4073",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "AWSM: I'm sorry I\nfucked up again"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "44d13fec-e876-4479-950f-44872472bc5f",
+                            "command": "EVENT_END"
+                        }
                     ]
                 }
             ],
-            "triggers": [
-                {
-                    "trigger": "walk",
-                    "id": "d89dcde8-bb7b-42f1-a542-13fcf2b2c66c",
-                    "x": 9,
-                    "y": 3,
-                    "width": 1,
-                    "height": 2,
-                    "script": [
-                        {
-                            "id": "a14acb0f-ec9e-4b12-a3b4-2906c966e92e",
-                            "command": "EVENT_SET_TRUE",
-                            "args": {
-                                "variable": "0"
-                            }
-                        },
-                        {
-                            "id": "77b105d0-c395-44dc-85ec-7e967f14f98b",
-                            "command": "EVENT_IF_FALSE",
-                            "args": {
-                                "variable": "0",
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "id": "6e83a11b-415c-46c4-b803-ce5cd31e73e0",
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "player",
-                                            "direction": "right"
-                                        }
-                                    },
-                                    {
-                                        "id": "62bf953d-e8c4-40c7-8e5e-a0306d377134",
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "AWSM: I'm sorry I\nfucked `up again"
-                                            ],
-                                            "avatarId": ""
-                                        }
-                                    },
-                                    {
-                                        "id": "f070a92f-bbd1-445e-8c81-11811bb4ae26",
-                                        "command": "EVENT_END"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "id": "c71586d2-c757-4ddf-98b2-c589c58334f3",
-                                        "command": "EVENT_END"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "id": "9238b986-4700-44f8-ac5e-5cb059be37b2",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "name": "AWSM",
-                    "notes": "doesnt trigger at all?!??!?!?!?!?!?!??!?!?!?!?"
-                }
-            ],
+            "triggers": [],
             "script": [
                 {
                     "id": "612c141a-1bfe-45be-856c-1572f6b4ecbd",
